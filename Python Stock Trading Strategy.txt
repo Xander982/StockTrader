@@ -1,0 +1,72 @@
+﻿Well, step 1 is to define a goal.  That's pretty obvious - beat the market in a robust way.
+        Beat SP500 for one year
+        Reduce volatility of portfolio
+        Same or better return with less losses versus VOO
+
+
+        Second goal same or better return with less losses versus standard diversified portfolio (ticker for ETF here)
+
+
+
+
+Step 2 is to make a strategy.  
+1. Technical indicators-  extracted features about stock price is my first attempt.  
+2. Sentiment - news articles, twitter articles.  
+3. Fundamentals - which tries to use financial metrics of a company to determine whether the price will go up or down. 
+4. Marketplace analysis- federal reserve rates and bond purchases.  Government spending, deficits, debt. Consumer debt levels.  Consumer confidence.  Trade policy.  Politics.
+
+
+
+
+Step 3 is to get the data set. 
+1. Sprint one is technical indicators so data set is just one year of end of trading day prices.
+   1. https://towardsdatascience.com/best-5-free-stock-market-apis-in-2019-ad91dddec984
+   2. Pip install finance
+   3. Download year of finance.yahoo.com prices
+   4. I think that this should work.
+2. Sprint two is fundamentals trading so data set is one year of financials.
+   1. Web page scraping: Yahoo Finance (?)
+3. Sprint three is market conditions including federal reserve data.
+4. Sprint four is sentiment. Twitter scraping. Natural language processing. 
+
+
+Tickers of interest are the largest companies from each of the 11 sectors of the SP500.
+As of September 2018, the S&P 500 was divided into 11 sectors, as follows, with their respective weightings by market capitalisation:[4]
+* Communication Services: 9.9% (VOX)
+* Consumer Discretionary: 10.2% (VCR)
+* Consumer Staples: 6.7% (VDC)
+* Energy: 6.0% (VDE)
+* Financials: 13.7% (VFH)
+* Health Care: 14.9% (VHT)
+* Industrials: 9.7% (VIS)
+* Materials: 2.5% (VAW)
+* Real Estate: 2.7% (VNQ)
+* Technology: 20.8% (VGT)
+* Utilities: 2.8% (VPU)
+Step 4 is maybe to get a GitHub up and running. 
+
+
+Step 5 is get familiar with the dataset. 
+Step 5b is to scrape and get live data
+
+
+Step 6 is to feature extraction.
+        Technical indicators
+        Top ten for rookies
+        Wikipedia
+        Stochastic oscillator
+        Bollinger Bands
+
+
+
+
+Step 6b is to create a rating for each stocks earning potential, risk, volatility, potential downside, overall buy rating, boolean buy rating of meeting certain criteria 
+
+
+ Step 7 is to create rules about trading.
+
+
+Step 8 is to make a trading system.
+
+
+Step 9 is to assess the strategies total return, maximum loss, and volatility
